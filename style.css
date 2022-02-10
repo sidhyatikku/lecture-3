@@ -1,3 +1,63 @@
 html {
   font-family: sans-serif;
 }
+
+header {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.info {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/cP-fCNh_MMFx0OyZ6RCLQXBWtWI=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19587519/shutterstock_1594285180.jpg");
+  background-size: cover;
+  font-size: 36px;
+  padding: 12px;
+  border: 1px solid black;
+  height: 100%;
+  width:50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+h1.who {
+  font-size: 1em;
+  text-align: right;
+  text-indent: -1em;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-right: 20%;
+}
+
+
+
+
+
+/* only the paragraphs in the header */
+header p {
+  font-size: 184px;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.06em;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* only the paragraphs in article  */
+article p {
+  font-size: 20px;
+  max-width: 30em;
+  margin-left: 5em;
+  line-height: 1.5em;
+}
